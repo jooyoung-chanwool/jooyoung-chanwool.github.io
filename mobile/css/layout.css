@@ -2,7 +2,7 @@
 /* layout.css는 모바일 청첩장 각 레이아웃을 정의합니다. */
 
 /* ********************* 1번 템플릿 ********************* */
-.mcard_29 .sec-tit{
+.mcard_ckjl .sec-tit{
 	position:relative;
 	padding-top:0.938rem;
 	margin-bottom:2.5rem;
@@ -14,7 +14,7 @@
 	color:#111;
 	letter-spacing:0.4em;
 }
-.mcard_29 .sec-tit:after{
+.mcard_ckjl .sec-tit:after{
 	content:'';
 	position:absolute;
 	left:3.438rem; top:0;
@@ -23,44 +23,44 @@
 	height:1px;
 	background-color:#0c0c0c;
 }
-.mcard_29 .com-btn.tel.sl{
+.mcard_ckjl .com-btn.tel.sl{
 	background-color:#78c0e9;
 }
-.mcard_29 .com-btn.tel.sb{
+.mcard_ckjl .com-btn.tel.sb{
 	background-color:#f79e9e;
 }
-.mcard_29 .com-btn.acc.sl{
+.mcard_ckjl .com-btn.acc.sl{
 	background-color:#78c0e9;
 }
-.mcard_29 .com-btn.acc.sb{
+.mcard_ckjl .com-btn.acc.sb{
 	background-color:#f79e9e;
 }
-.mcard_29 .com-btn.sms{
+.mcard_ckjl .com-btn.sms{
 	background-color:#ddd;
 }
-.mcard_29 .tbanner-section .text.vertical{
+.mcard_ckjl .tbanner-section .text.vertical{
 	padding-bottom:2.188rem;
 	background:url("/mobile/new_m/mcard/images/mcard_29/wedding_day.png") center bottom 1px no-repeat;
 	background-size:7.750rem auto;
 }
 
-.mcard_29 .visual-section{
+.mcard_ckjl .visual-section{
 	height:100%;
 }
-.mcard_29 .visual-section .vertical-center{
+.mcard_ckjl .visual-section .vertical-center{
 	height:100%;
 	/* padding:2.5rem 0; */
 	padding:5.625rem 0 6.625rem;
 }
 
-.mcard_29 .visual-section .vertical-item{
+.mcard_ckjl .visual-section .vertical-item{
 	width:100%;
 	padding:0 3.438rem;
 }
-.mcard_29 .visual-section .vertical-item.date{
+.mcard_ckjl .visual-section .vertical-item.date{
 	margin-bottom:1.563rem;
 }
-.mcard_29 .visual-section .vertical-item .date{
+.mcard_ckjl .visual-section .vertical-item .date{
 	width:1.875rem;
 	min-height:5rem;
 	padding-left:0.625rem;
@@ -72,33 +72,33 @@
 	text-transform:uppercase;
 	border-left:1px solid #090303;
 }
-.mcard_29 .visual-section .vertical-item .date.large{
+.mcard_ckjl .visual-section .vertical-item .date.large{
 	width:2rem;
     min-height:5.125rem;
 	font-size:1.125rem;
 	font-weight:300;
 	line-height:1.375rem;	
 }
-.mcard_29 .visual-section .vertical-item .date.big-large{
+.mcard_ckjl .visual-section .vertical-item .date.big-large{
 	width:2.125rem;
     min-height:5.25rem;
 	font-size:1.25rem;
 	font-weight:300;
 	line-height:1.5rem;	
 }
-.mcard_29 .visual-section .vertical-item.photo img{
+.mcard_ckjl .visual-section .vertical-item.photo img{
 	width:100%;
 }
-.mcard_29 .visual-section .vertical-item.info{
+.mcard_ckjl .visual-section .vertical-item.info{
 	margin-top:1.125rem;
 	text-align:right;
 }
-.mcard_29 .visual-section .vertical-item.info .p1{
+.mcard_ckjl .visual-section .vertical-item.info .p1{
 	margin-bottom:0.938rem;
 	font-size:0; 
 	line-height:0;
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .vs-span{
+.mcard_ckjl .visual-section .vertical-item.info .p1 .vs-span{
 	display:inline-block;
 	vertical-align:top;
 	font-size:1rem;
@@ -106,15 +106,15 @@
 	line-height:1.250rem;
 	letter-spacing:0.2em;
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .vs-span.large{	
+.mcard_ckjl .visual-section .vertical-item.info .p1 .vs-span.large{	
 	font-size:1.125rem;	
 	line-height:1.375rem;	
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .vs-span.big-large{	
+.mcard_ckjl .visual-section .vertical-item.info .p1 .vs-span.big-large{	
 	font-size:1.25rem;	
 	line-height:1.5rem;	
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .bar{
+.mcard_ckjl .visual-section .vertical-item.info .p1 .bar{
 	margin:0 0.625rem;
 	height:1.250rem;
 	width:0.500rem;
@@ -122,7 +122,7 @@
 	background-size:0.500rem;
 	letter-spacing:0;
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .bar.large{
+.mcard_ckjl .visual-section .vertical-item.info .p1 .bar.large{
 	margin:0 0.75rem;
 	height:1.375rem;
 	width:0.625rem;	
@@ -130,7 +130,7 @@
 	background-size:0.625rem;
 	letter-spacing:0;
 }
-.mcard_29 .visual-section .vertical-item.info .p1 .bar.big-large{
+.mcard_ckjl .visual-section .vertical-item.info .p1 .bar.big-large{
 	margin:0 0.875rem;
 	height:1.5rem;
 	width:0.75rem;	
@@ -138,24 +138,24 @@
 	background-size:0.75rem;
 	letter-spacing:0;
 }
-.mcard_29 .visual-section .vertical-item.info .p2{
+.mcard_ckjl .visual-section .vertical-item.info .p2{
 	font-size:0.750rem;
 	font-weight:400;
 	line-height:1.125rem;
 }
-.mcard_29 .visual-section .vertical-item.info .p2.large{
+.mcard_ckjl .visual-section .vertical-item.info .p2.large{
 	font-size:0.813rem;
 	font-weight:400;
 	line-height:1.188rem;
 }
-.mcard_29 .visual-section .vertical-item.info .p2.big-large{
+.mcard_ckjl .visual-section .vertical-item.info .p2.big-large{
 	font-size:0.875rem;
 	font-weight:400;
 	line-height:1.25rem;
 }
-.mcard_29 .greeting-section{
+.mcard_ckjl .greeting-section{
 	margin-top:-3.125rem;
 }
-.mcard_29 .honjuTel-section .honju-tit.sb{
+.mcard_ckjl .honjuTel-section .honju-tit.sb{
 	color:#5b1eaa;
 }
