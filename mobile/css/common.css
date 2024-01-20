@@ -1,7 +1,7 @@
 /* common.css는 모바일 청첩장 공통영역 정의합니다. */
 html{-webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; font-size:4.445vmin;}
 html, body{width:100%; height:100%;}
-body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat-y; background-size:100% auto;}
+body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size:100% auto;}
 
 #menu-overlay{display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#000; opacity:.7; z-index:998;}
 
@@ -26,7 +26,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 .messageDelete .buttons:after{content:''; display:block; clear:both;}
 .messageDelete .buttons .btn{display:block; float:left; width:50%; background:#fff; font-family:"Noto Sans KR"; font-size:1rem; font-weight:400; line-height:3.125rem; text-align:center; color:#111; border-top:1px solid #eee; border-left:1px solid #eee;text-decoration:none;}
 .messageDelete .buttons .btn:first-child{border-left:0;}
-.messageDelete .close-btn{position:absolute; right:0; top:0; display:block; width:3.375rem; height:3.125rem; background:url("/mobile/new_m/mcard/images/common/message_delete_02.png") 50% 50% no-repeat; background-size:0.875rem; font-size:0; line-height:0;}
+.messageDelete .close-btn{position:absolute; right:0; top:0; display:block; width:3.375rem; height:3.125rem; background:url("/images/common/message_delete.png") 50% 50% no-repeat; background-size:0.875rem; font-size:0; line-height:0;}
 
 .accountCopy .pop-head{font-family:"Noto Sans KR"; font-size:1.125rem; font-weight:400; line-height:3.125rem;text-align:center; color:#111; border-bottom:1px solid #5b1eaa;}
 .accountCopy .pop-body{padding:0 0 2.5rem;}
@@ -38,7 +38,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 .accountCopy .form .group:after {content: '';display: block;clear: both;}
 .accountCopy .form .input{font-family: 'Noto Sans KR';font-size: 1rem;width: 77%;height: 2.5rem;border: 1px solid #eee;background: #f9f9f9;padding-left: 0.875rem;}
 .accountCopy .form .btn{background: #5b1eaa;color: #fff;height: 2.5rem;width: 3.75rem;font-size: 0.813rem;font-family: 'Noto Sans KR';}
-.accountCopy .close-btn{position:absolute; right:0; top:0; display:block; width:3.375rem; height:3.125rem; background:url("/mobile/new_m/mcard/images/common/message_delete_02.png") 50% 50% no-repeat; background-size:0.875rem; font-size:0; line-height:0;}
+.accountCopy .close-btn{position:absolute; right:0; top:0; display:block; width:3.375rem; height:3.125rem; background:url("/images/common/message_delete.png") 50% 50% no-repeat; background-size:0.875rem; font-size:0; line-height:0;}
 
 .copyComplete .pop-body{padding:0 0 2.5rem;}
 .copyComplete .form .group{padding:2.5rem 2rem;text-align:center;}
@@ -188,7 +188,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 }
 .greeting-section .info .honju .gt-span.deceased-flower-on:after{
 	content:"";
-    background-image: url(/mobile/new_m/mcard/images/common/chrysanthemum.png?ver=0.0.1); 
+    background-image: url(/images/common/chrysanthemum.png); 
     background-size: cover;
     background-position: center;
 	position:absolute; 
@@ -316,7 +316,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 }
 
 .banner-section{
-	background:url('/mobile/new_m/mcard/images/mcard_29/banner_01.jpg') center center no-repeat;
+	background:url('/images/mcard_29/banner.jpg') center center no-repeat;
 	background-size:100% auto;
 }
 .banner-section .txt{
@@ -376,11 +376,11 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 }
 .com-btn:first-child{margin-left:0;}
 .com-btn.tel{
-	background-image:url("/mobile/new_m/mcard/images/common/icon_tel.png");
+	background-image:url("/images/common/icon_tel.png");
 	background-size:1rem auto;
 }
 .com-btn.sms{
-	background-image:url("/mobile/new_m/mcard/images/common/icon_sms.png");
+	background-image:url("/images/common/icon_sms.png");
 	background-size:1rem auto;
 }
 .com-btn.acc{
@@ -689,7 +689,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	display:block;
 	width: 3.375rem;
 	height:3.188rem;
-	background: url("/mobile/new_m/mcard/images/common/gallery_close.png") 50% 50% no-repeat;
+	background: url("/images/common/gallery_close.png") 50% 50% no-repeat;
 	background-size:0.875rem auto;
 	font-size: 0;
 	line-height: 0;
@@ -864,7 +864,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	display:block;
 	width:2.250rem;
 	height:2.250rem;
-	background:#333 url("/mobile/new_m/mcard/images/common/icon_tel.png") 50% 50% no-repeat;
+	background:#333 url("/images/common/icon_tel.png") 50% 50% no-repeat;
 	background-size:1rem;
 	font-size:0;
 	line-height:0;
@@ -913,16 +913,16 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	background-size:3.125rem;
 }
 .location-section .link .tmap:after{
-	background-image: url("/mobile/new_m/mcard/images/common/location_tmap2.png");
+	background-image: url("/images/common/location_tmap.png");
 }
 .location-section .link .kakaonavi:after{
-	background-image: url("/mobile/new_m/mcard/images/common/location_kakaonavi.png");
+	background-image: url("/images/common/location_kakaonavi.png");
 }
 .location-section .link .navermap:after{
-	background-image: url("/mobile/new_m/mcard/images/common/location_navermap.png");
+	background-image: url("/images/common/location_navermap.png");
 }
 .location-section .link .kakaomap:after{
-	background-image: url("/mobile/new_m/mcard/images/common/location_kakaomap.png");
+	background-image: url("/images/common/location_kakaomap.png");
 }
 .location-section .info{
 	padding-top: 0.625rem;
@@ -1148,7 +1148,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	right:0; top:0.750rem;
 	width:1.250rem;
 	height:1.250rem;
-	background:#111 url("/mobile/new_m/mcard/images/common/message_delete.png") 50% 50% no-repeat;
+	background:#111 url("/images/common/message_delete.png") 50% 50% no-repeat;
 	background-size:0.5rem;
 	font-size: 0;
 	line-height: 0;
@@ -1157,7 +1157,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 
 /* 참석여부 팝업 1 */
 .copyComplete .form .group-narrow {  padding: 1.25rem; }
-.copyComplete .form .group .btn-close { background: transparent center / 1rem no-repeat url('/mobile/new_m/mcard/images/common/modal_close.svg'); width:1rem; height:1rem; position:absolute; top:1rem; right:1rem; }
+.copyComplete .form .group .btn-close { background: transparent center / 1rem no-repeat url('/images/common/modal_close.svg'); width:1rem; height:1rem; position:absolute; top:1rem; right:1rem; }
 .copyComplete.sendRsvp .form .group .tit { padding-top:1.25rem; font-size:1rem; font-weight:500; }
 .copyComplete.sendRsvp .form .group .default-txt { font-size:0.875rem; line-height:1.5; font-family: 'Noto sans KR'; color:#333; margin-top:0.25rem; }
 .copyComplete.sendRsvp .form .group .customer-txt { margin-top:2.25rem; padding-bottom:1.625rem;  }
@@ -1177,7 +1177,7 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 .check-wrap input[type="checkbox"] { position: absolute; top: 0; left: 0; opacity: 0; z-index: 10; cursor: pointer;  margin: 0; width:100%; height:100%; }
 .check-wrap input[type="checkbox"] + label { position:relative; display:inline-flex; align-items:center;}
 .check-wrap input[type="checkbox"] + label:before {  content: '';  background-image: none;  background-color:#fff;  border:  0.0625rem solid #999;  display: inline-block; width: 1.25rem; height: 1.25rem; box-sizing: border-box; }
-.check-wrap input[type="checkbox"]:checked + label:after {  content: ""; background: #5B1EAA center / 0.8125rem no-repeat url('/mobile/new_m/mcard/images/common/modal_check.svg'); height: 1.25rem;  width: 1.25rem;  display: inline-block; position:absolute; top:0; left:0; }
+.check-wrap input[type="checkbox"]:checked + label:after {  content: ""; background: #5B1EAA center / 0.8125rem no-repeat url('/images/common/modal_check.svg'); height: 1.25rem;  width: 1.25rem;  display: inline-block; position:absolute; top:0; left:0; }
 .label-text { padding: 0 0 0 0.3125rem; font-size: 0.875rem;  color: #333;  font-family: 'Noto sans KR'; white-space:nowrap; font-weight:500; }
 .label-text.wht { color:#fff; }
 
@@ -1216,8 +1216,8 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 .con-wrap .item .chk-txt { font-size: 0.875rem; white-space: nowrap;	}
 .con-wrap .item .chk-txt .sm-txt { font-size:0.75rem; padding-left:0.1875rem;}
 .con-wrap .item .chk-txt .icon { display:inline-block; height:1.25rem; background-repeat:no-repeat; background-position:bottom center;  vertical-align: -0.25rem;  margin-right: 0.3125rem; }
-.con-wrap .item .chk-txt .bride { background-image:url('/mobile/new_m/mcard/images/common/modal_bride.svg');  width:1rem; background-size:0.9375rem; }
-.con-wrap .item .chk-txt .groom { background-image:url('/mobile/new_m/mcard/images/common/modal_groom.svg');  width:1.03rem; background-size:1.03rem; }
+.con-wrap .item .chk-txt .bride { background-image:url('/images/common/modal_bride.svg');  width:1rem; background-size:0.9375rem; }
+.con-wrap .item .chk-txt .groom { background-image:url('/images/common/modal_groom.svg');  width:1.03rem; background-size:1.03rem; }
 
 .con-wrap input[type="text"] { width:100%; border:0.0625rem #ccc solid; padding:0.75rem 0.625rem; font-size:0.875rem; }
 .con-wrap textarea { resize:none; width:100%; padding:0.75rem; min-height:5.4375rem; line-height:1.5; font-size:0.875rem; }
@@ -1267,13 +1267,13 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	background-size:3.125rem;
 }
 .foot-share .kakao:after{
-	background-image:url("/mobile/new_m/mcard/images/common/footer_kakao.png");
+	background-image:url("/images/common/footer_kakao.png");
 }
 .foot-share .facebook:after{
-	background-image:url("/mobile/new_m/mcard/images/common/footer_facebook.png");
+	background-image:url("/images/common/footer_facebook.png");
 }
 .foot-share .Phone_2g:after{
-	background-image:url("/mobile/new_m/mcard/images/common/footer_2g.png");
+	background-image:url("/images/common/footer_2g.png");
 }
 .foot-logo{
 	display:-webkit-box; 
@@ -1289,15 +1289,6 @@ body{background:url("/mobile/new_m/mcard/images/common/bg_white.jpg") 0 0 repeat
 	font-size:0;
 	line-height:0;
 	text-align:center;
-}
-.foot-logo:after{
-	content:'';
-	display:block;
-	width:3.469rem;
-	height:0.906rem;
-	margin:0 auto;
-	background:url("/mobile/new_m/mcard/images/common/footer_logo.png") 0 0 no-repeat;
-	background-size:3.469rem auto;
 }
 
 /* ******************************** 미디어 쿼리 ******************************** */
