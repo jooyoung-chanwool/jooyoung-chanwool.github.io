@@ -915,8 +915,8 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 .location-section .link .tmap:after{
 	background-image: url("/images/common/location_tmap.png");
 }
-.location-section .link .kakaonavi:after{
-	background-image: url("/images/common/location_kakaonavi.png");
+.location-section .link .gmap:after{
+	background-image: url("/images/common/location_gmap.png");
 }
 .location-section .link .navermap:after{
 	background-image: url("/images/common/location_navermap.png");
