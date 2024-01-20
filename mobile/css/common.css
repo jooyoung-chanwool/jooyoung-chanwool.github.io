@@ -1299,10 +1299,6 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	.visual-section{
 		height:auto !important;
 	}
-	.mcard_15 .sec-tit img{
-		width:100%;
-		height:auto !important;
-	}
 
 	/* 가로 디바이스에서 갤러리 팝업 사이즈 조정 */
 	.gallery-pop-wrap .lSSlideOuter{margin:0 20%; overflow:hidden;}
