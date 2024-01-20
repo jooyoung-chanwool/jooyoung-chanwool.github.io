@@ -40,7 +40,7 @@
 }
 .mcard_ckjl .tbanner-section .text.vertical{
 	padding-bottom:2.188rem;
-	background:url("/mobile/new_m/mcard/images/mcard_29/wedding_day.png") center bottom 1px no-repeat;
+	background:url("/images/layout/wedding_day.png") center bottom 1px no-repeat;
 	background-size:7.750rem auto;
 }
 
@@ -118,7 +118,7 @@
 	margin:0 0.625rem;
 	height:1.250rem;
 	width:0.500rem;
-	background:url('/mobile/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+	background:url('/images/layout/bar.png') center center no-repeat;
 	background-size:0.500rem;
 	letter-spacing:0;
 }
@@ -126,7 +126,7 @@
 	margin:0 0.75rem;
 	height:1.375rem;
 	width:0.625rem;	
-    background:url('/mobile/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+    background:url('/images/layout/bar.png') center center no-repeat;
 	background-size:0.625rem;
 	letter-spacing:0;
 }
@@ -134,7 +134,7 @@
 	margin:0 0.875rem;
 	height:1.5rem;
 	width:0.75rem;	
-    background:url('/mobile/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+    background:url('/images/layout/bar.png') center center no-repeat;
 	background-size:0.75rem;
 	letter-spacing:0;
 }
