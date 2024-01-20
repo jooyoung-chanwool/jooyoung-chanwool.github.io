@@ -6,5 +6,5 @@
 @import url("campton.css");  /* font-family:'campton'; */
 
 @import url("reset.css");
-@import url("common.css?v=0.1.0");
-@import url("layout.css?v=0.0.16");
+@import url("common.css");
+@import url("layout.css");
