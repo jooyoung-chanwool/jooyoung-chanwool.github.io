@@ -169,11 +169,11 @@
     transition: all 0.35s ease;
 }
 .lSAction > .lSPrev {
-    background-image:url("/mobile/images/placeholder.jpeg");
+    background-image:url("/images/buttons/prev_button.png");
     left: -1.500rem;
 }
 .lSAction > .lSNext {
-    background-image:url("/mobile/images/placeholder.jpeg");
+    background-image:url("/images/buttons/next_button.png");
     right: -1.500rem;
 }
 .lSAction > a.disabled {
