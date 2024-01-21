@@ -156,6 +156,9 @@
 .mcard_ckjl .greeting-section{
 	margin-top:-3.125rem;
 }
+.mcard_ckjl .honjuTel-section .honju-tit.sl{
+	color:#111;
+}
 .mcard_ckjl .honjuTel-section .honju-tit.sb{
-	color:#5b1eaa;
+	color:#111;
 }
