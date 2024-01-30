@@ -96,65 +96,6 @@ function popClose(id) { // 팝업 닫기 onclick
 	.fadeOut(100);
 }
 
-function dataPicker(data) { // 달력 출력
-	var el = $("#calendar");
-	var date = new Date(data);    
-
-	el.datepicker({
-		dateFormat: 'yyyy-mm-dd' //Input Display Format 변경
-		,defaultDate: date // 기본 날짜 설정
-		,showOtherMonths: false //빈 공간에 현재월의 앞뒤월의 날짜를 표시
-		,showMonthAfterYear: false //년도 먼저 나오고, 뒤에 월 표시
-		,changeYear: false //콤보박스에서 년 선택 가능
-		,changeMonth: false //콤보박스에서 월 선택 가능      
-		,constrainInput: false //형식외 텍스트 입력제한. 디폴트 true
-		//,showOn: "both" //button:버튼을 표시하고,버튼을 눌러야만 달력 표시 ^ both:버튼을 표시하고,버튼을 누르거나 input을 클릭하면 달력 표시  
-		//,buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif" //버튼 이미지 경로
-		//,buttonImageOnly: true //기본 버튼의 회색 부분을 없애고, 이미지만 보이게 함
-		//,buttonText: "선택" //버튼에 마우스 갖다 댔을 때 표시되는 텍스트                
-		//,yearSuffix: "년" //달력의 년도 부분 뒤에 붙는 텍스트
-		,monthNamesShort: ['1','2','3','4','5','6','7','8','9','10','11','12'] //달력의 월 부분 텍스트
-		,monthNames: ['<strong>1</strong> January','<strong>2</strong> Fedruary','<strong>3</strong> March','<strong>4</strong> April','<strong>5</strong> May','<strong>6</strong> June','<strong>7</strong> July','<strong>8</strong> August','<strong>9</strong> September','<strong>10</strong> October','<strong>11</strong> November','<strong>12</strong> December'] //달력의 월 부분 Tooltip 텍스트
-		,dayNamesMin: ['S', 'M', 'T', 'W', 'T', 'F', 'Sa']
-		,dayNames: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 Tooltip 텍스트
-		//,minDate: "-1M" //최소 선택일자(-1D:하루전, -1M:한달전, -1Y:일년전)
-		//,maxDate: "+1M" //최대 선택일자(+1D:하루후, -1M:한달후, -1Y:일년후)
-		,onSelect: function(date){
-			
-		}
-	});
-}
-
-function dataPicker2(y,m,d) { // 달력 출력
-	var el = $("#calendar");
-	//var date = new Date(data);
-    var date = new Date(y,m,d,'00','00');	
-
-	el.datepicker({
-		dateFormat: 'yyyy-mm-dd' //Input Display Format 변경
-		,defaultDate: date // 기본 날짜 설정
-		,showOtherMonths: false //빈 공간에 현재월의 앞뒤월의 날짜를 표시
-		,showMonthAfterYear: false //년도 먼저 나오고, 뒤에 월 표시
-		,changeYear: false //콤보박스에서 년 선택 가능
-		,changeMonth: false //콤보박스에서 월 선택 가능      
-		,constrainInput: false //형식외 텍스트 입력제한. 디폴트 true
-		//,showOn: "both" //button:버튼을 표시하고,버튼을 눌러야만 달력 표시 ^ both:버튼을 표시하고,버튼을 누르거나 input을 클릭하면 달력 표시  
-		//,buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif" //버튼 이미지 경로
-		//,buttonImageOnly: true //기본 버튼의 회색 부분을 없애고, 이미지만 보이게 함
-		//,buttonText: "선택" //버튼에 마우스 갖다 댔을 때 표시되는 텍스트                
-		//,yearSuffix: "년" //달력의 년도 부분 뒤에 붙는 텍스트
-		,monthNamesShort: ['1','2','3','4','5','6','7','8','9','10','11','12'] //달력의 월 부분 텍스트
-		,monthNames: ['<strong>1</strong> January','<strong>2</strong> Fedruary','<strong>3</strong> March','<strong>4</strong> April','<strong>5</strong> May','<strong>6</strong> June','<strong>7</strong> July','<strong>8</strong> August','<strong>9</strong> September','<strong>10</strong> October','<strong>11</strong> November','<strong>12</strong> December'] //달력의 월 부분 Tooltip 텍스트
-		,dayNamesMin: ['S', 'M', 'T', 'W', 'T', 'F', 'Sa']
-		,dayNames: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 Tooltip 텍스트
-		//,minDate: "-1M" //최소 선택일자(-1D:하루전, -1M:한달전, -1Y:일년전)
-		//,maxDate: "+1M" //최대 선택일자(+1D:하루후, -1M:한달후, -1Y:일년후)
-		,onSelect: function(date){
-			
-		}
-	});
-}
-
 var imgGallerySlider;
 var popGallerySlider;
 function imageGallery() { // 포토갤러리
