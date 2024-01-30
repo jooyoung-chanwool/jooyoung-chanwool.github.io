@@ -58,7 +58,7 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	flex-direction: row;
 }
 .paging:after{content:''; display:block; clear:both;}
-.paging a {display:inline-block; text-align:center; border:1px solid transparent; margin:0; line-height:2.625rem; color:#999; max-width:2.625rem; height:2.625rem; font-family:"campton"; text-decoration: none; box-sizing:content-box;
+.paging a {display:inline-block; text-align:center; border:1px solid transparent; margin:0; line-height:2.625rem; color:#999; max-width:2.625rem; height:2.625rem; font-family:"questrial"; text-decoration: none; box-sizing:content-box;
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
@@ -469,7 +469,7 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	white-space:nowrap;
 }
 .calendar-wrap .day-time span{
-	font-family:"campton";
+	font-family:"questrial";
 	font-size:0.875rem;
 	line-height:2.5rem;
 	color:#111;
@@ -499,12 +499,12 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	border-bottom:1px solid #eee;
 }
 .ui-datepicker-month{
-	font-family:"campton";
+	font-family:"questrial";
 	font-size:0.750rem;
 	line-height:2.5rem;
 }
 .ui-datepicker-month strong{
-	font-family:"campton";
+	font-family:"questrial";
 	font-size:1.250rem;
 	font-weight:bold;
 }
@@ -525,7 +525,7 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	width:1.875rem;
 	height:1.875rem;
 	text-decoration:none;
-	font-family:"campton";
+	font-family:"questrial";
 	font-size:0.625rem;
 	line-height:1.875rem;
 	color:#777;
