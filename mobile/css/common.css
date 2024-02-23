@@ -935,7 +935,8 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	text-align: center;
 }
 .foot-share ul{
-	font-size:0.25rem;
+	font-size:0.5rem;
+	color:#fff;
 	line-height:0;
 }
 
