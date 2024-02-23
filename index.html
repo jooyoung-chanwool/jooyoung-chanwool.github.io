@@ -34,18 +34,6 @@
     <body class="mcard_ckjl">
         <div class="wrapper">
             <section id="content">
-                <!--player-->
-                <div class="music">
-                    <a href="javascript:music_player()">
-                        <div>
-                            <img id="m_on" src="/images/buttons/music_off.png" tppabs="/images/buttons/music_on.png" />
-                            <p style="display: none;" id="m_off">stop</p>
-                        </div>
-                    </a>
-                    <audio id="audio" preload="none" loop="loop" src="/music/Bluebird.mp3"></audio>
-                </div>
-                <!--//player-->
-
                 <!--// 비주얼 -->
                 <section class="visual-section h-100">
                     <div class="vertical-center">
@@ -625,45 +613,6 @@
                 </div>
 
                 <script>
-                    function music_player() {
-                        if ($("#m_off").text() == "stop") {
-                            bgmStart("/music/Bluebird.mp3");
-                            $("#m_off").text("start");
-                            document.getElementById("m_on").src = "/images/buttons/music_on.png";
-                        } else {
-                            bgmStop();
-                            $("#m_off").text("stop");
-                            document.getElementById("m_on").src = "/images/buttons/music_off.png";
-                        }
-                    }
-
-                    function bgmStart(link) {
-                        if (window.HTMLAudioElement) {
-                            audio = $("audio");
-                            audio[0].src = link;
-                            audio[0].load();
-                            audio[0].play();
-                            //alert("audio");
-                        } else {
-                            //ie_player.setBGM(link);
-                            //alert(ie_player.src);
-                            setTimeout("ie_player.bgmPlay()", 100);
-                            //alert("ifrm");
-                        }
-                    }
-
-                    function bgmStop() {
-                        if (window.HTMLAudioElement) {
-                            audio = $("audio");
-                            audio[0].pause();
-                        } else {
-                            ie_player.bgmStop();
-                        }
-                    }
-
-                    // BGM
-                    //music_player();
-
                     // 포토갤러리
                     imageGallery();
 
