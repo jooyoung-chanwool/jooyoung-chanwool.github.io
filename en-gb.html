@@ -53,7 +53,7 @@
                             <span class="vs-span">Chanwool</span>
                         </p>
                         <p class="p2">
-                            Sunday at 5PM<br />
+                            Sunday at 5 p.m.<br />
                             Seokpajeong, Seoul Art Museum
                         </p>
                     </div>
@@ -63,11 +63,11 @@
 
             <!--참석 의사 여부 -->
             <section class="livewed-section rsvp-section">
-                <div class="sec-tit">RESERVES, S'IL VOUS PLAÎT</div>
-                <div class="sec-txt">Kindly respond by 6 September 2024</div>
+                <div class="sec-tit">RÉPONDEZ, S'IL VOUS PLAÎT</div>
+                <div class="sec-txt">We kindly ask you to reply<br>by the first of July</div>
                 <div class="sec-date"></div>
                 <div class="button">
-                    <a href="https://forms.gle/UJGS8CU9ktreYJf96">RSVP FORM</a>
+                    <a href="https://forms.gle/UJGS8CU9ktreYJf96">LINK TO RSVP FORM</a>
                 </div>
             </section>
             
@@ -120,10 +120,10 @@
             <!--안내 -->
             <section class="livewed-section rsvp-section">
                 <div class="sec-tit">INFORMATION</div>
-                <div class="sec-txt">We have prepared our own guide to Korea!</div>
+                <div class="sec-txt">Is this your first time in Korea?<br>We have prepared a little guide for you!</div>
                 <div class="sec-date"></div>
                 <div class="button">
-                    <a href="https://docs.google.com/document/d/1V1TFtyx_UdRwGl793O-7cVx9xYyY1VWHRtFb3Mmo8do/edit?usp=sharing">GUIDE TO KOREA</a>
+                    <a href="https://docs.google.com/document/d/1V1TFtyx_UdRwGl793O-7cVx9xYyY1VWHRtFb3Mmo8do/edit?usp=sharing">LINK TO GUIDE</a>
                 </div>
             </section>
 
@@ -241,14 +241,14 @@
                             </div>
                         </li>
                     </ul>
-                    <p class="ex">You can click the pictures too!</p>
+                    <p class="ex">Click to enlarge photos!</p>
                 </div>
             </section>
             <!-- 사진 //-->
 
             <div class="gallery-pop-wrap">
                 <div class="pop-header">
-                    <div class="tit">사진 모음</div>
+                    <div class="tit">OUR TIME TOGETHER</div>
                 </div>
                 <div class="pop-body">
                     <ul id="pop-gallery" class="gallery list-unstyled cS-hidden roll_type01">
@@ -372,21 +372,6 @@
 
                 // 팝업갤러리
                 popGallery();
-
-                function jsCopyLink(copyText, id) {
-                    var tmpTextarea = document.createElement("textarea");
-                    tmpTextarea.value = copyText;
-
-                    document.body.appendChild(tmpTextarea);
-                    tmpTextarea.select();
-                    tmpTextarea.setSelectionRange(0, 9999); // 셀렉트 범위 설정
-
-                    document.execCommand("copy");
-                    document.body.removeChild(tmpTextarea);
-                    popClose(id);
-                    popOpen("0 1rem", "copyComplete");
-                    //alert("URL 복사가 완료되었습니다.");
-                }
 
                 $(document).on("ready", function () { });
             </script>
