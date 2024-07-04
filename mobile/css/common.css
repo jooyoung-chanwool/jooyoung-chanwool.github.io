@@ -814,8 +814,17 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	padding:1.563rem 1rem 1.875rem;
 	background:#fff;
 }
-
-.location-section .map-item{
+.location-section .vertical-center{
+	display:-webkit-box; 
+	display:-ms-flexbox; 
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.location-section .vertical-item{
 	flex-shrink:0;
 }
 
