@@ -815,6 +815,10 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	background:#fff;
 }
 
+.location-section .map-item{
+	flex-shrink:0;
+}
+
 .account-section{
 	padding:3.125rem 0;
 	text-align: center;
