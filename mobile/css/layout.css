@@ -172,11 +172,12 @@
 	width:100%;
 }
 .mthank .visual-section .vertical-item.tit{
-	margin-bottom:3.750rem; 
+	margin-bottom:3.50rem; 
 	padding-top:1.563rem;
 }
 .mthank .visual-section .vertical-item.tit .p1{
 	margin-bottom:1rem; 
+	padding-top:1.563rem; 
 	line-height:0;
 }
 .mthank .visual-section .vertical-item.tit .vs-span{
