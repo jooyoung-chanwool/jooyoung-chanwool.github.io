@@ -119,12 +119,6 @@ body{background:url("/images/common/bg_white.jpg") 0 0 repeat-y; background-size
 	line-height:0;
 	text-align:center;
 }
-.greeting-section .info .f-item{
-	flex-shrink:0;
-}
-.greeting-section .info .f-item.first{
-	max-width:calc(100%);
-}
 .greeting-section .info .row{
 	display:table-row;
 }
