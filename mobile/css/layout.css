@@ -167,7 +167,7 @@
 .mthank{font-family:"Nanum Myeongjo", sans-serif, 'helvetica', serif, 'AppleGothic';}
 .mthank .visual-section .vertical-top{padding:3.750rem 0 0;}
 .mthank .visual-section .vertical-item{width:100%;}
-.mthank .visual-section .vertical-item.tit{margin-bottom:3.750rem; padding-top:1.563rem; background:url("/mobile/new_m/mthank/images/mthank/visual_tit.png") top 1px center no-repeat; background-size:3.938rem auto;}
+.mthank .visual-section .vertical-item.tit{margin-bottom:3.750rem; padding-top:1.563rem; background:url("/images/common/thank_english.png") top 1px center no-repeat; background-size:3.938rem auto;}
 .mthank .visual-section .vertical-item.tit .p1{padding-left:0.375rem; font-size:0;}
 .mthank .visual-section .vertical-item.tit .vs-span{position:relative; font-size:1rem; font-weight:400; line-height:1; color:#111; letter-spacing:0.625em;}
 .mthank .visual-section .vertical-item.tit .bar{font-size:0.875rem;}
